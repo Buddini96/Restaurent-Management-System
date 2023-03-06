@@ -1,0 +1,256 @@
+html{
+  position: relative;
+  min-height:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  background: url("admin/images/R2.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 0;
+  margin: 0 auto;
+  background: #f9f9f9;
+  font-size: 24px;
+  padding: 25px;
+}
+
+.parallax {
+  min-height: 600px;
+  background: transparent;
+}
+
+.ft{
+  margin-bottom: 0;
+  min-height: 50px;
+}
+
+.font{
+  font-size: 0;
+  width: fit-content;
+}
+
+.body{
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container1{
+  background-color: #fafafa;
+  margin: 200px;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.container1-time{
+  background-color: rgba(0, 0, 0, .95);
+  padding: 50px;
+  color: #fff;
+  outline: 3px dashed #998100;
+  outline-offset: -30px; 
+  text-align: center;
+}
+
+.heading{
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.heading-days{
+  color: #998100;
+  font-size: 30px;
+}
+
+.heading-phone{
+  font-size: 20px;
+}
+
+.container1-form{
+  padding: 20px 0;
+  margin: 0 auto;
+  color: #000;
+}
+
+.form{
+    row-gap: 20px;
+ 
+}
+
+.form p{
+  font-weight: 600;
+}
+
+.form-field{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input,select{ 
+  pad: 10px 15px;
+}
+
+.btn{
+  background-color: rgba(0, 0, 0, .95);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+}
+
+.ph{
+margin: 0;
+padding: 0;
+min-height: 100%;
+background: coral;
+}
+
+.pa{
+  background: url("admin/images/D2.webp");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.dress{
+  margin: 40px;
+}
+
+.co{
+  margin: 0 auto;
+  padding: 0;
+  background: burlywood;
+  
+}
+
+
+  footer {
+    background-color: black;
+    position: relative;
+    left: auto;
+    bottom: auto;
+    height: auto;
+    width:  auto;
+    overflow: hidden;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+    padding: 0px;
+  }
+
+
+.fa { 						/* change social media icons properties */
+		
+	margin: 0px 5px ; 
+	padding: 5px;            /* inner fonts of icons  */
+	font-size: 20px;
+	width: 30px ;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius:50%;
+	transform: translate(0, -50%);
+	position: absolute;		
+	}
+
+		.fa:hover 					/*  social media icons opacity */
+		{
+			opacity: 0.7;
+		}
+
+		.fa-facebook
+		{
+			right: 750px;
+			background: #3B5998;	/* Icon background color */
+			color: white;			/* font color  */
+        }
+        
+        .fa-instagram
+		{
+			right: 700px;
+			background: #cc178b;
+			color: white;
+        }
+        
+		.fa-twitter
+		{
+			right: 650px;
+			background: #55ACEE;
+			color: white;
+		}
+
+        .fa-youtube
+			{
+				right: 600px;
+				background:rgb(245, 9, 9);
+				color: white;
+				text-align: center;
+			}
+			
+
+		@media only screen and (max-width: 600px) {         /* code for adjust app size when device changed into lower resolution */
+
+		    .fa   						/* change social media icons properties */
+			{	
+				margin: 0px 5px; 
+				padding: 5px;            /* inner fonts of icons  */
+				font-size: 20px;
+				width: 30px ;
+				height: 30px;
+				text-align: center;
+				text-decoration: none;
+				border-radius: 50%;
+				transform: translate(0, -50%);
+			
+			}
+
+			.fa:hover 					/*  social media icons opacity */
+			{
+				opacity: 0.7;
+			}
+
+			
+            .fa-facebook
+			{
+				right: 300px;
+				background: #3B5998;	/* Icon background color */				color: white;			/* font color  */
+            }
+            
+            .fa-instagram
+			{
+				right: 200px;
+				background: #cc178b;
+				color: white;
+			}
+
+			.fa-twitter
+			{
+				right: 250px;
+				background: #55ACEE;
+				color: white;
+			}
+
+			.fa-youtube
+			{
+				right: 100px;
+				background:#F50909;
+				color: white;
+			}
+		}
+
+
+

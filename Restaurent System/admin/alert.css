@@ -1,0 +1,65 @@
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  height: auto;
+  position: absolute;
+  z-index: 2;                 /*  Give position overlap value for relative, absolute, fixed positions  */
+  margin: auto auto; 
+  left: 38%;                  /*  Alert position  */
+}
+
+.alert.success {background-color: #4CAF50;}
+
+.closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {         /* code for adjust app size when device changed into lower resolution */
+
+.alert 
+   {
+      padding: 20px;
+      background-color: #f44336;
+      color: white;
+      opacity: 1;
+      transition: opacity 0.6s;
+      height: auto;
+      position: absolute;
+      z-index: 2;                 /*  Give position overlap value for relative, absolute, fixed positions  */
+      margin: auto auto; 
+      right: 25%;
+   }
+
+
+.alert.success {background-color: #4CAF50;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: red;
+}
+
+}

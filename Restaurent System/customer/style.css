@@ -1,0 +1,347 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*.....................................................................................Main Code..............................................................................................*/
+
+.wrapper {
+    height: auto;
+    width: 100%;
+    /*background-color: red;    */
+}
+
+
+#header {
+    height: 140px;
+    width: 100%;
+    background-color: black;
+}
+
+#section {
+    overflow: auto;
+    padding-bottom: 10px;  
+    height: 557px auto;
+}
+
+
+#footer { 
+    width: 100%;
+    background-color: black; 
+  
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    float:left; 
+    margin-left: 20px ;
+    width: 150px;
+    height: 95px;
+    color: #f3a61a      /* text color under the logo image */
+}
+
+.logo_img{
+    position: absolute;
+    top: 10px;
+    float:left; 
+    width: 95px;
+    height: 102px;
+}
+
+.logo_img img{
+    margin-left: 95px ;
+}
+
+.text{
+  
+    margin-top: 105PX; 
+    width: 280px;
+}
+
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* nav {                            ( This code included into the index.php page head )
+    float: right;
+    word-spacing: 30px;
+    padding: 20px;
+}
+
+ nav li {                            ( create navigation tabs in inline )
+   display: inline-block;
+    line-height: 80px;
+}   
+*/
+
+#img {                               /* Code for <section id="img> in index.php  */
+    height: 750px auto;
+    background-image: url(images/book5.jpg);     /* Can change section image size only */
+    overflow: hidden;
+}
+
+.box {                  /* Home page welcome box */
+    height: 350px;
+    width: 450px;
+    background-color: #2c1d0a;;
+    margin: 70px auto;
+    color: white;
+    opacity: 0.8;
+}
+
+.slideshow { 
+    position: relative;                            /* can change sideshow positiion */
+    margin-top: -512px ;            /* can change top margin of slideshow */
+    margin-bottom: -18px ;                         /* can change bottom margin of slideshow */
+    opacity: none;
+}
+
+#tt {
+     font-size:30px;
+     font-family: "Raleway";            /*clock font styls */
+    color: #d6ec28;
+}
+
+@media only screen and (max-width: 600px) {         /* media query for adjust app size when device changed into lower resolution */
+
+      .logo { 
+       
+             width: 5.125em;
+             height: 6.125em;
+            }
+
+      .logo_img img{
+                margin-left: 25px ;
+                width: 5.125em;
+                height: 6.125em;
+            }
+
+
+      .box { 
+             width: 70%;
+             height: 350px;
+             margin: 98px auto;
+            }
+
+      .slideshow { 
+            position: relative;                            /* can change sideshow positiion */
+            margin-top: -565px ;            /* can change top margin of slideshow */
+            margin-bottom: -15px ;                         /* can change bottom margin of slideshow */
+            opacity: none;
+            }
+}
+
+
+
+/*-----------------------------------------------------------------------------------------Admin-login------------------------------------------------------------------------------------------*/
+
+.box1 {                 /* can change Student Login box position */
+    height: 425px;
+    width: 425px;
+    background-color: transparent;
+    margin: 70px auto;
+    color: white;
+    opacity: 0.75;
+    padding: -20px;
+    margin-top: -20px;  
+}
+
+
+.log_img {
+    height: 650px;
+    background-size: cover;
+    background-image: url(customer/images/J2.jpg);
+}
+
+.box1 input{             /* can change length of input field lines */
+        width: 50%;
+        margin-bottom: 15px;
+        margin: auto 110px;
+    }
+
+
+.box1 input[type="text"], input[type="password"] /* can change input text field properties */
+    {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 20px;
+        color: #fff;
+        font-size: 18px;
+
+    }
+.box1 input[type="submit"]        /* Login Button */
+    {             
+    margin: auto 38%;
+    width: 110px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0px;
+    background-color: #0c6996;
+    border: 2px solid #00000a;
+    color: aliceblue;
+    font-size: 18px;
+    }
+
+
+/*................................................................................New Member registration............................................................................*/
+
+.reg_img {
+    height: 980px;
+    margin-top: -2px;
+    background-size: cover;
+    background-image: url(images/P2.jpg);
+}
+
+.box2 {                  /* can change registration form size & position */
+    width: 450px;
+    height: 800px;
+    background-color: black;
+    margin: 60px auto;          /* change margin between box and header */
+    opacity: 0.8;
+    color: white;
+    padding: 20px;
+}
+
+.box2 input{             /* can change length of input field lines */
+        width: 50%;
+        margin-bottom: 15px;
+        margin: auto 110px;
+    }
+
+.box2 input[type="text"], input[type="password"] /* can change input text field properties */
+    {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 25px;                         /*   change input field size  */
+        color: #fff;
+        font-size: 18px;
+        padding-left: 0px;
+    }
+
+.box2 input[type="submit"]           /* Login Button */
+    {            
+        margin: auto 38%;
+        width: 110px;
+        padding: 10px;
+        border-radius: 10px;
+        outline: 0px;
+        background-color: #900353;
+        border: 2px solid #f8f8fd;
+        color: #f3f3f0;
+        font-size: 19px;
+    }
+
+.navbar-header                      /* height oof navbar  */ 
+    {
+        height: 50px;
+    }
+.container-fluid                    /* text position of navbar  */
+    {
+        margin-top: 10px;
+    }
